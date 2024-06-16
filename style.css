@@ -1,0 +1,59 @@
+header{
+    background-color:lightgray ;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    /* margin-bottom: 16px; margin removida. Também pode colocar um valor igual a 0 que a faixa branca some*/
+}
+    
+
+nav{
+   /* background-color: #ef7d19; */
+}
+
+ul{
+    display:flex;
+    height: 100%;
+    align-items: center;
+  
+}
+
+nav ul li {
+    padding-left: 16px;
+    list-style-type: none;
+
+}
+body{
+    background-color:rgba(46, 5, 112, 0.851);
+}
+ main {
+    padding-top: 16px; /* ao colocar margin auto e padding-top 16px a faixa branca some */
+    /*background-color: #800080; apaga essa cor, pq foi colocado no body a cor azul*/
+    margin: auto;
+    width: 900px; /* tamanho da main. quando fazemos isso, regula todo o espaçamento em branco ao redor para 900px.*/
+    color: #ffffff;
+ }
+
+ section{
+    display: flex;
+ }
+ div {
+    background-color: orange;
+    margin: 24px/* para cima*/ 24px/*direita*/0 /*para baixo*/0 /* para esquerda*/;/*15px ; quando colocamos um valor para margin, ela ira alinhar apenas para cima , para baixo, direita e esquerda.*/
+    padding: 15px;/* para eu alinhar dois valores , basta colocar como esta na margin*/
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    }  
+
+    h1 {
+        font-size: 4rem;/* rem é outra unidade de medida, a cada um rem equilave 16px, é mais fácil em questao de expansividade.*/
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+
+      h3{
+        font-size:  1.2rem;
+      }

@@ -1,0 +1,1 @@
+Esse projeto ensina como trabalhar com Css. Aula correspondente ao dia 10 de junho da Proz.
